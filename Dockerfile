@@ -1,5 +1,5 @@
 # Specify the base image with SHA256 for reproducibility and security
-FROM python:3.12-slim@sha256:d86b4c74b936c438cd4cc3a9f7256b9a7c27ad68c7caf8c205e18d9845af0164
+FROM python:3.14-slim@sha256:486b8092bfb12997e10d4920897213a06563449c951c5506c2a2cfaf591c599f
 
 # Turns off buffering for easier container logging and updating pip as root
 ENV PYTHONUNBUFFERED=1
